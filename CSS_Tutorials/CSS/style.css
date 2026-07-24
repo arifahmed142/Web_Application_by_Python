@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9ea5c1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.flags{
+    position: relative;
+    border: 1px solid black;
+    height: 500px;
+    width: 70%;
+    flex-wrap: wrap;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.afa{
+    margin-left: 1%;
+    height: 150px;
+    width: 300px;
+}
+.afa div{
+    height: 50px;
+    background-color: #5398d4;
+}
+.afa div img{
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+}
+.cbf{
+    margin-left: 1%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+}
+.dice{
+    height: 63%;
+    width: 32%;
+    background-color: yellow;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    background-color: #331469;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+.norway{
+    margin-left: 1%;
+    background-color: #331469;
+    height: 150px;
+    width: 300px;
+    position: relative;
+}
+.norway div:nth-child(1){
+    border-right: 15px solid white;
+    border-bottom: 15px solid white;
+    position: absolute;
+    height: 50px;
+    width: 30%;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+.norway div:nth-child(2){
+    border-left: 15px solid white;
+    border-bottom: 15px solid white;
+    position: absolute;
+    height: 50px;
+    width: 55%;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+
+.norway div:nth-child(3){
+    border-right: 15px solid white;
+    border-top: 15px solid white;
+    position: absolute;
+    height: 50px;
+    width: 30%;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+}
+
+.norway div:nth-child(4){
+    border-left: 15px solid white;
+    border-top: 15px solid white;
+    position: absolute;
+    height: 50px;
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+}
+.palestine{
+    margin-left: 1%;
+    height: 150px;
+    width: 300px;
+    position: relative;
+}
+.palestine div:nth-child(1){
+    height: 33.33%;
+    background-color: black;
+}
+
+.palestine div:nth-child(2){
+    height: 33.33%;
+    background-color: white;
+}
+
+.palestine div:nth-child(3){
+    height: 33.33%;
+    background-color: green;
+}
+.palestine div:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 0;
+
+    border-top: 74px solid transparent;
+    border-bottom: 78px solid transparent;
+    border-left: 85px solid #ce1126;
+}
+.turkey{
+    margin-left: 1%;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e60404;
+}
+.turkey img{
+    height: 80%;
+    width: 50%;
+}
+.scotland{
+    margin-left: 1%;
+    height: 150px;
+    width: 215px;
+    background-color: white;
+    overflow: hidden;
+    
+}
+.design{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: rotate(46deg);
+}
+
+.design div:nth-child(1){
+    position: absolute;
+    height: 152px;
+    width: 50%;
+    top: -88px;
+    left: -7px;
+    background-color: rgb(69, 69, 164);
+}
+.design div:nth-child(2){
+    position: absolute;
+    height: 152px;
+    width: 50%;
+    top: -88px;
+    right: -20px;
+    background-color: rgb(69, 69, 164);
+}
+.design div:nth-child(3){
+    position: absolute;
+    height: 152px;
+    width: 57%;
+    bottom: -93px;
+    left: -24px;
+    background-color: rgb(69, 69, 164);
+}
+.design div:nth-child(4){
+    position: absolute;
+    height: 152px;
+    width: 50%;
+    bottom: -93px;
+    right: -20px;
+    background-color: rgb(69, 69, 164);
+}
